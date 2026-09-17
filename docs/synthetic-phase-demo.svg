@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic squat trajectory and inferred phases</title>
+  <desc id="desc">An illustrative vertical image trajectory split into standing, descending, bottom, and ascending phases.</desc>
+  <rect width="1200" height="500" rx="24" fill="#f8fafc"/>
+  <text x="70" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Synthetic trajectory-to-phase demonstration</text>
+  <text x="70" y="89" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Illustrative data only — not a participant recording and not a validated velocity measurement</text>
+  <g transform="translate(90 120)">
+    <rect x="0" y="0" width="1000" height="280" fill="#ffffff" stroke="#cbd5e1"/>
+    <g stroke="#e2e8f0" stroke-width="1"><path d="M0 70 H1000"/><path d="M0 140 H1000"/><path d="M0 210 H1000"/><path d="M200 0 V280"/><path d="M400 0 V280"/><path d="M600 0 V280"/><path d="M800 0 V280"/></g>
+    <path d="M20 40 C120 38, 150 44, 210 70 C300 110, 355 190, 455 235 C505 257, 540 258, 585 230 C680 172, 730 92, 830 52 C900 28, 945 42, 980 40" fill="none" stroke="#0284c7" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="520" cy="250" r="10" fill="#f97316"/>
+    <text x="100" y="258" font-family="Arial" font-size="17" fill="#334155" text-anchor="middle">standing</text>
+    <text x="310" y="258" font-family="Arial" font-size="17" fill="#334155" text-anchor="middle">descending</text>
+    <text x="520" y="215" font-family="Arial" font-size="17" fill="#c2410c" text-anchor="middle">bottom</text>
+    <text x="735" y="258" font-family="Arial" font-size="17" fill="#334155" text-anchor="middle">ascending</text>
+    <text x="920" y="258" font-family="Arial" font-size="17" fill="#334155" text-anchor="middle">standing</text>
+    <text x="-42" y="142" transform="rotate(-90 -42 142)" font-family="Arial" font-size="16" fill="#64748b" text-anchor="middle">vertical image coordinate y (px)</text>
+    <text x="500" y="322" font-family="Arial" font-size="16" fill="#64748b" text-anchor="middle">time</text>
+  </g>
+</svg>
